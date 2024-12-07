@@ -36,3 +36,17 @@
 - step02: to move & create new branch
   - eg: `git checkout -b task/development-branch`
   - if branch already exist eg: `git checkout <branch-name>`
+
+## upstraming remote & local branches
+
+- task/development-branch
+
+  - branching code push
+
+- pull request to balance
+  main & task/development-branch
+  NOTE: pull request always balance git remote branches
+
+- Now if we want to balance LOCAL main & task/development-branch
+  - git checkout main
+  - git pull ( to take the code from git MAIN branches)
